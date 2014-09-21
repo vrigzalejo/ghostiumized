@@ -1,0 +1,40 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/opt/rh/nodejs010/root/usr/bin/npm', 'install' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/var/lib/openshift/541daa615004462b3c0011d9/app-root/runtime/repo/content/themes/ghostium',
+5 verbose install   [] ]
+6 info preinstall Ghostium@2.2.1
+7 verbose readDependencies using package.json deps
+8 silly resolved []
+9 info build /var/lib/openshift/541daa615004462b3c0011d9/app-root/runtime/repo/content/themes/ghostium
+10 verbose linkStuff [ false,
+10 verbose linkStuff   false,
+10 verbose linkStuff   false,
+10 verbose linkStuff   '/var/lib/openshift/541daa615004462b3c0011d9/app-root/runtime/repo/content/themes' ]
+11 info linkStuff Ghostium@2.2.1
+12 verbose linkBins Ghostium@2.2.1
+13 verbose linkMans Ghostium@2.2.1
+14 verbose rebuildBundles Ghostium@2.2.1
+15 info install Ghostium@2.2.1
+16 info postinstall Ghostium@2.2.1
+17 verbose unsafe-perm in lifecycle true
+18 info Ghostium@2.2.1 Failed to exec postinstall script
+19 error Ghostium@2.2.1 postinstall: `bundle install && bower install`
+19 error Exit status 5
+20 error Failed at the Ghostium@2.2.1 postinstall script.
+20 error This is most likely a problem with the Ghostium package,
+20 error not with npm itself.
+20 error Tell the author that this fails on your system:
+20 error     bundle install && bower install
+20 error You can get their info via:
+20 error     npm owner ls Ghostium
+20 error There is likely additional logging output above.
+21 error System Linux 2.6.32-431.23.3.el6.x86_64
+22 error command "node" "/opt/rh/nodejs010/root/usr/bin/npm" "install"
+23 error cwd /var/lib/openshift/541daa615004462b3c0011d9/app-root/runtime/repo/content/themes/ghostium
+24 error node -v v0.10.25
+25 error npm -v 1.3.24
+26 error code ELIFECYCLE
+27 verbose exit [ 1, true ]
